@@ -1,10 +1,12 @@
-### Boundary Conditions
+# Boundary Conditions
 
-#### About this piece:
+https://www.fxhash.xyz/generative/14224
+
+## About this piece:
 
 Boundary Conditions is based on a personal observation about the nature of existence: that it is most clear at the interface between two separate aspects of reality. We enjoy the merging of sea and land, congregate at the boundaries of the land and the sky, tenuously ponder—in small, select groups—the limits where atmosphere dwindles into vacuum. Life is about the transition from one state to another, maintaining a precarious existence on the edge of everything.
 
-#### The Generative Process
+## The Generative Process
 
 At the heart of Boundary Conditions is micro-managed Perlin noise, produced as small points and patches of colour. Rendering takes place over three hundred and sixty frames, with the number of points rendered increasing as time passes. This allows the piece to initially form a general overview, and fill in the finer details as time passes. This results in the piece fading gently into view over several seconds, but allows the rendering process to be part of the experience, rather than presenting the viewer with a blank screen or a progress bar.
 
@@ -36,16 +38,16 @@ Scaling allows for the image to move beyond the limits of the canvas, or be cons
 
 Not all pieces are coloured, and in general the colours are muted and saturation is low. However, the saturation level is variable, and in rare cases can lead to completely greyscale images or, athe other extreme, instances where the saturation values are pushed to twice the standard value. Rarely is a piece saturated to the point where clipping of hue values occurs, but the possiblity is there. A dark mode exists in a small proportion of pieces, which enhances and highlights the saturated palettes.
 
-#### To use this:
+## To use this:
 
 Clone the repository on your machine and move to the directory. The actual code is in the *public* folder, in the *index.js* file.
 
-#### Install the packages required for the local environment
+# Install the packages required for the local environment
 ```sh
 $ npm i
 ```
 
-#### Start local environment to enable live reloading
+# Start local environment to enable live reloading
 
 ```sh
 $ npm start
@@ -53,7 +55,7 @@ $ npm start
 
 This should open the artwork in your web browser.
 
-#### Build
+# Build
 
 ```sh
 $ npm run build
