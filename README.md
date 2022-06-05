@@ -1,20 +1,40 @@
-# Mapped Orbits for Unbound Electrons
+# Boundary Conditions
 
 ## About this piece:
 
-‘Mapped Orbits for Unbound Electrons’ is a study of circular orbits and noise-based gradients, rendered, shifted, superimposed and cropped in various ways to bring out generative patterns and shapes.
+Boundary Conditions is based on a personal observation about the nature of existence: that it is most clear at the interface between two separate aspects of reality. We enjoy the merging of sea and land, congregate at the boundaries of the land and the sky, tenuously ponder—in small, select groups—the limits where atmosphere dwindles into vacuum. Life is about the transition from one state to another, maintaining a precarious existence on the edge of everything.
 
-The main shape is a 'circular gradient' object, the parameters of which include a start and end radius, a number of individual arcs, a width for each arc segment, and an angle shift with some random variation taking place over all these parameters. Random numbers are, as is usual for an fxhash piece, based on a single unique hash value, ensuring the render is the same for each piece. Variations can be rendered, of course, using either the infinite variations button, or by pressing 'p' when the piece is active.
+## The Generative Process
 
-The generative process takes up to nine of these gradient objects and combines them in six main variants, ranging from a single central piece combining one or more gradients, through to complex pieces where multiple gradients are off-centred and faded across quarters or thirds.
+At the heart of Boundary Conditions is micro-managed Perlin noise, produced as small points and patches of colour. Rendering takes place over three hundred and sixty frames, with the number of points rendered increasing as time passes. This allows the piece to initially form a general overview, and fill in the finer details as time passes. This results in the piece fading gently into view over several seconds, but allows the rendering process to be part of the experience, rather than presenting the viewer with a blank screen or a progress bar.
 
-To further add variation and the opportunity for the stochastic process to bring pleasing results, lines and circles may be overlaid according to various rules. These are curated towards quarters, thirds and sixths, depending on the rendering variation.
+#‘Grains’ and ‘Dunes’
 
-For this piece, palettes are not hard-coded. They are, however, carefully manipulated by selecting an initial hue value and working from this point to produce colours with various limitations. Some renders will be monochrome, or near-monochrome, whilst others will select from the full range of hues available. Others will cluster near to a central point, with one or two circular gradients taking up a contrary position on the colour wheel. There is the chance of a lighter rendering mode, something that may be considered a rare feature.
+The main focus of the image is the ‘grains’ layer—the dark, spattered series of grouped dots that form sweeping, striated patterns. A spattering technique is used, as though the grains were splashes of paint flung onto the canvas with vigorous brushstrokes. Amongst them, more saturated and thicker lines of colour accentuate one side of the grains, within certain chosen parameters, like shadows on the sides of a dunes, or the ripples left in sand by the receding tide.
 
-Other deliberately rare features include background texture, some line overlays, particular configurations of circular gradients. Unintentionally rare features may arise, of course, according to the patterns inherent within random numbers.
+#Colour and Large-scale Texture
 
-Collectors of ‘The Last Days of Fire and Steel’ may have enjoyed the apocalyptic lore behind the piece, and have wondered what caused events, and the nature of the machine alluded to in the piece. The last transmission from the machine may be of interest, and collectors of either piece are invited to discover its location within the piece.
+Larger swathes of colour, termed ’dunes’, are added in such a way as to form patches, or thick striations. Along these paths larger circles of ink may be added, sometimes singly, sometimes in a pattern of splashes. Further shading is added to alter shading over the space of the entire instance. The ‘sand’ layer is a tighter, more extreme band of colour, but is intentionally limited so as not to overpower the piece.
+
+#Geometric Overlays
+
+Larger geometric shapes are sometimes overlaid: both circles and rectangles. These, too, are stippled in various ways, often fading so that only their corners, or partial edges, are visible.
+
+#Rotation:
+
+Applied, perhaps, at intervals of ninety degrees, or maybe in more subtle ways—sometimes a forty-five degree rotation will produce a diagonal rendering. This is in addition to the rotation of individual blocks, although the two may work against each other, leaving only part of the instance rotated.
+
+#Grids and Intersections
+
+The main image produced using the above techniques is taken and used as a building block for the finished piece. It may appear as a background to the entire image, and may then be broken into parts to provide the finished piece. These blocks may be small, may be large, may be further subdivided, or may not even be rendered at all. Sometimes they will be reversed or rotated, sometimes shifted in the x-axis, the y-axis, or both at once. The grid formations are chosen from a number of sub-styles, each one tuned and constrained to provide variation within aesthetic limits. Hundreds of test renders have been used to hone these options, but the possibility of the anomalous is always there.
+
+#Scaling
+
+Scaling allows for the image to move beyond the limits of the canvas, or be constrained within it. It also provides the possiblity of a sector being only slightly displaced from the background, leading to something akin to motion-blur. Sometimes a piece will be scaled to extremes of value, zooming in on a portion of the image, or rendering it as a smaller window within the larger canvas.
+
+#Colour
+
+Not all pieces are coloured, and in general the colours are muted and saturation is low. However, the saturation level is variable, and in rare cases can lead to completely greyscale images or, athe other extreme, instances where the saturation values are pushed to twice the standard value. Rarely is a piece saturated to the point where clipping of hue values occurs, but the possiblity is there. A dark mode exists in a small proportion of pieces, which enhances and highlights the saturated palettes.
 
 ## To use this:
 
